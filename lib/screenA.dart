@@ -38,9 +38,9 @@ class _ScreenAState extends State<ScreenA> {
 
     return MaterialApp(home: Scaffold(
       body: Container(
-        child: change=="screenC"?ScreenC():
-            change=="screenD"?ScreenD():
-                change=="screenE"?ScreenE():
+        child: change=="screenC"?const ScreenC():
+            change=="screenD"?const ScreenD():
+                change=="screenE"?const ScreenE():
                     ScreenB(switchPageC,switchPageD,switchPageE)
       ),
     ),);

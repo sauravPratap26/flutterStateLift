@@ -5,12 +5,10 @@ class ScreenC extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        child: Text(
-          "Screen C",
-          style: TextStyle(fontSize: 25),
-        ),
+    return const Center(
+      child: Text(
+        "Screen C",
+        style: TextStyle(fontSize: 25),
       ),
     );
   }
